@@ -11,6 +11,7 @@ const IndexPage = () => (
     <h1>
       Hi! I'm Tomoki Sato.<br/>
       I'm a UI/UX Designer.
+      believe me! I can work for you!
     </h1>
     <p>Welcome to my portfolio site!</p>
     <p>Now go build something great.</p>
