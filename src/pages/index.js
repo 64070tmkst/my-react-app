@@ -8,12 +8,17 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>
-      Hi! I'm Tomoki Sato.<br/>
-      I'm a UI/UX Designer.
-      believe me! I can work for you!
-    </h1>
-    <p>Welcome to my portfolio site!</p>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>
+         Learn to design and code react apps.
+         
+        </h1>
+        <p>Welcome to my web site!</p>
+        <a href="#">Watch the video</a>
+      </div>
+    </div>
+    
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
