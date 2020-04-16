@@ -14,7 +14,7 @@ const IndexPage = () => (
          Learn to design and code react apps.
          
         </h1>
-        <p>Welcome to my web site!</p>
+        <p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
         <a href="#">Watch the video</a>
       </div>
     </div>
