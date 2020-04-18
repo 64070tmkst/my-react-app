@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -39,7 +40,41 @@ const IndexPage = () => (
 
       </div>
     </div>
-    
+
+    <div className="Cards">
+      <h2>
+        6 courses, more coming!
+      </h2>
+      <div className="CardGroup">
+        <Card
+          title="Design System with Figma"
+          text="10 sections"
+          image={require('../images/wallpaper.jpg')} />
+        <Card
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper2.jpg')} />
+        <Card
+          title="Learn ios11 Design"
+          text="12 sections"
+          image={require('../images/wallpaper3.jpg')} />
+        <Card
+          title="Vue for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper4.jpg')} />
+                <Card
+          title="Design System with Figma"
+          text="10 sections"
+          image={require('../images/wallpaper.jpg')} />
+        <Card
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper2.jpg')} />
+
+      </div>
+        
+    </div>
+
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
